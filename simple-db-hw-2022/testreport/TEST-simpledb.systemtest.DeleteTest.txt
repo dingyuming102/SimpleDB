@@ -1,0 +1,8 @@
+Testsuite: simpledb.systemtest.DeleteTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.572 sec
+
+Testcase: testLessThan took 0.162 sec
+Testcase: testLessThanOrEq took 0.085 sec
+Testcase: testGreaterThanOrEq took 0.103 sec
+Testcase: testGreaterThan took 0.075 sec
+Testcase: testEquals took 0.097 sec

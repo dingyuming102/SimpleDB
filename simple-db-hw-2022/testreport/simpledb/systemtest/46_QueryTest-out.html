@@ -1,0 +1,39 @@
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Standard Output from QueryTest</title>
+    </head>
+    <body>
+        <pre>Started a new transaction tid = 5
+Added scan of table emp
+Added scan of table dept
+Added scan of table hobbies
+Added scan of table hobby
+Added join between emp.c1 and dept.c0
+Added join between hobbies.c0 and emp.c2
+Added join between hobbies.c1 and hobby.c0
+Added select list field null.*
+The query plan is:
+                                                 π(emp.c0,emp.c1,emp.c2,emp.c3,emp.c4,emp.c5,dept.c0,dept.c1,dept.c2,hobbies.c0,hobbies.c1,hobby.c0,hobby.c1,hobby.c2,hobby.c3,hobby.c4,hobby.c5),card:200000
+                                                 |
+                                                 ?(hobbies.c1=hobby.c0),card:200000
+                               __________________|__________________
+                               |                                   |
+                               ?(emp.c2=hobbies.c0),card:200000    |
+                _______________|________________                   |
+                |                              |                   |
+                ?(emp.c1=dept.c0),card:1516    |                   |
+  ______________|______________                |                   |
+  |                           |                |                   |
+  σ(emp.c3&lt;1000),card:1516    |                |                   |
+  |                           |              scan(hobbies)         |
+scan(emp)                   scan(dept)                           scan(hobby)
+
+emp.c0	emp.c1	emp.c2	emp.c3	emp.c4	emp.c5	dept.c0	dept.c1	dept.c2	hobbies.c0	hobbies.c1	hobby.c0	hobby.c1	hobby.c2	hobby.c3	hobby.c4	hobby.c5	
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ 0 rows.
+Transaction 5 committed.
+</pre>
+    </body>
+</html>

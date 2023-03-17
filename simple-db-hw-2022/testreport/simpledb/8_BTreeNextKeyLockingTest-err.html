@@ -1,0 +1,27 @@
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Standard Error from BTreeNextKeyLockingTest</title>
+    </head>
+    <body>
+        <pre>simpledb.transaction.TransactionAbortedException
+	at simpledb.transaction.LockManager.acquireLock(LockManager.java:61)
+	at simpledb.storage.BufferPool.getPage(BufferPool.java:99)
+	at simpledb.index.BTreeFile.getPage(BTreeFile.java:516)
+	at simpledb.index.BTreeFile.findLeafPage(BTreeFile.java:192)
+	at simpledb.index.BTreeFile.findLeafPage(BTreeFile.java:209)
+	at simpledb.index.BTreeFile.insertTuple(BTreeFile.java:550)
+	at simpledb.storage.BufferPool.insertTuple(BufferPool.java:214)
+	at simpledb.index.BTreeUtility$BTreeWriter.run(BTreeUtility.java:535)
+simpledb.transaction.TransactionAbortedException
+	at simpledb.transaction.LockManager.acquireLock(LockManager.java:61)
+	at simpledb.storage.BufferPool.getPage(BufferPool.java:99)
+	at simpledb.index.BTreeFile.getPage(BTreeFile.java:516)
+	at simpledb.index.BTreeFile.findLeafPage(BTreeFile.java:192)
+	at simpledb.index.BTreeFile.findLeafPage(BTreeFile.java:209)
+	at simpledb.index.BTreeFile.insertTuple(BTreeFile.java:550)
+	at simpledb.storage.BufferPool.insertTuple(BufferPool.java:214)
+	at simpledb.index.BTreeUtility$BTreeWriter.run(BTreeUtility.java:535)
+</pre>
+    </body>
+</html>

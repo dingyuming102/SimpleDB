@@ -1,0 +1,5 @@
+Testsuite: simpledb.StringAggregatorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 sec
+
+Testcase: mergeCount took 0.009 sec
+Testcase: testIterator took 0 sec

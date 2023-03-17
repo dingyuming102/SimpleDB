@@ -1,0 +1,9 @@
+Testsuite: simpledb.BTreeRootPtrPageTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.1 sec
+
+Testcase: testDirty took 0.047 sec
+Testcase: getId took 0 sec
+Testcase: setRootId took 0 sec
+Testcase: getRootId took 0 sec
+Testcase: setHeaderId took 0 sec
+Testcase: getHeaderId took 0 sec

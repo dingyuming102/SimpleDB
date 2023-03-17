@@ -1,0 +1,7 @@
+Testsuite: simpledb.systemtest.InsertTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.172 sec
+
+Testcase: testOneToEmpty took 0.075 sec
+Testcase: testEmptyToOne took 0.019 sec
+Testcase: testOneToOne took 0.017 sec
+Testcase: testEmptyToEmpty took 0.012 sec

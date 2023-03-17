@@ -1,0 +1,7 @@
+Testsuite: simpledb.RecordIdTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 sec
+
+Testcase: equals took 0.007 sec
+Testcase: tupleno took 0.001 sec
+Testcase: hCode took 0 sec
+Testcase: getPageId took 0 sec

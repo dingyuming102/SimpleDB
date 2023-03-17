@@ -1,0 +1,8 @@
+Testsuite: simpledb.IntegerAggregatorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 sec
+
+Testcase: mergeAvg took 0.013 sec
+Testcase: mergeMax took 0.001 sec
+Testcase: mergeMin took 0.001 sec
+Testcase: mergeSum took 0.001 sec
+Testcase: testIterator took 0 sec

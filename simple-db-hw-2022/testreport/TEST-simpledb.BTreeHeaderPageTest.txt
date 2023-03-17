@@ -1,0 +1,13 @@
+Testsuite: simpledb.BTreeHeaderPageTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.107 sec
+
+Testcase: numSlots took 0.046 sec
+Testcase: getNextPageId took 0.001 sec
+Testcase: getEmptySlot took 0.002 sec
+Testcase: getPageData took 0.002 sec
+Testcase: testDirty took 0 sec
+Testcase: getPrevPageId took 0 sec
+Testcase: setNextPageId took 0.001 sec
+Testcase: setPrevPageId took 0.001 sec
+Testcase: getSlot took 0.002 sec
+Testcase: getId took 0.001 sec

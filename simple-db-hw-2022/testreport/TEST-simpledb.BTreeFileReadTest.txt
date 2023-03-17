@@ -1,0 +1,10 @@
+Testsuite: simpledb.BTreeFileReadTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.378 sec
+
+Testcase: getTupleDesc took 0.074 sec
+Testcase: numPages took 0.018 sec
+Testcase: readPage took 0.017 sec
+Testcase: getId took 0.03 sec
+Testcase: testIteratorBasic took 0.041 sec
+Testcase: testIteratorClose took 0.074 sec
+Testcase: indexIterator took 0.073 sec

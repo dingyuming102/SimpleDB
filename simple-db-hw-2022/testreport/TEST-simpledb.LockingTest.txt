@@ -1,0 +1,26 @@
+Testsuite: simpledb.LockingTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.655 sec
+------------- Standard Output ---------------
+Transaction 2 Aborted!
+Transaction 17 Aborted!
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+simpledb.transaction.TransactionAbortedException
+	at simpledb.transaction.LockManager.acquireLock(LockManager.java:61)
+	at simpledb.storage.BufferPool.getPage(BufferPool.java:99)
+	at simpledb.TestUtil$LockGrabber.run(TestUtil.java:338)
+simpledb.transaction.TransactionAbortedException
+	at simpledb.transaction.LockManager.acquireLock(LockManager.java:61)
+	at simpledb.storage.BufferPool.getPage(BufferPool.java:99)
+	at simpledb.TestUtil$LockGrabber.run(TestUtil.java:338)
+------------- ---------------- ---------------
+
+Testcase: acquireWriteReadLocksOnSamePage took 0.213 sec
+Testcase: acquireReadLocksOnTwoPages took 0.196 sec
+Testcase: acquireReadLocksOnSamePage took 0.172 sec
+Testcase: acquireReadWriteLocksOnTwoPages took 0.171 sec
+Testcase: lockUpgrade took 0.28 sec
+Testcase: acquireReadWriteLocksOnSamePage took 0.17 sec
+Testcase: acquireThenRelease took 0.06 sec
+Testcase: acquireWriteAndReadLocks took 0.175 sec
+Testcase: acquireWriteLocksOnTwoPages took 0.167 sec

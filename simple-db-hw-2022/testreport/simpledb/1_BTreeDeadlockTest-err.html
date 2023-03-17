@@ -1,0 +1,26 @@
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Standard Error from BTreeDeadlockTest</title>
+    </head>
+    <body>
+        <pre>simpledb.transaction.TransactionAbortedException
+	at simpledb.transaction.LockManager.acquireLock(LockManager.java:61)
+	at simpledb.storage.BufferPool.getPage(BufferPool.java:99)
+	at simpledb.index.BTreeFile.getPage(BTreeFile.java:516)
+	at simpledb.index.BTreeFile.getParentWithEmptySlots(BTreeFile.java:433)
+	at simpledb.index.BTreeFile.splitLeafPage(BTreeFile.java:295)
+	at simpledb.index.BTreeFile.insertTuple(BTreeFile.java:552)
+	at simpledb.storage.BufferPool.insertTuple(BufferPool.java:214)
+	at simpledb.index.BTreeUtility$BTreeWriter.run(BTreeUtility.java:535)
+simpledb.transaction.TransactionAbortedException
+	at simpledb.transaction.LockManager.acquireLock(LockManager.java:61)
+	at simpledb.storage.BufferPool.getPage(BufferPool.java:99)
+	at simpledb.index.BTreeFile.getPage(BTreeFile.java:516)
+	at simpledb.index.BTreeFile.getRootPtrPage(BTreeFile.java:1090)
+	at simpledb.index.BTreeFile.insertTuple(BTreeFile.java:539)
+	at simpledb.storage.BufferPool.insertTuple(BufferPool.java:214)
+	at simpledb.index.BTreeUtility$BTreeWriter.run(BTreeUtility.java:535)
+</pre>
+    </body>
+</html>

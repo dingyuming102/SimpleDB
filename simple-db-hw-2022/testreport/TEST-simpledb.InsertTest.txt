@@ -1,0 +1,5 @@
+Testsuite: simpledb.InsertTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.106 sec
+
+Testcase: getTupleDesc took 0.051 sec
+Testcase: getNext took 0.005 sec

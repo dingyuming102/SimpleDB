@@ -1,0 +1,12 @@
+Testsuite: simpledb.BTreeFileInsertTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.543 sec
+------------- Standard Output ---------------
+removing non-existing page
+removing non-existing page
+removing non-existing page
+removing non-existing page
+------------- ---------------- ---------------
+
+Testcase: testReusePage took 0.086 sec
+Testcase: testSplitInternalPages took 0.387 sec
+Testcase: testSplitLeafPages took 0.02 sec

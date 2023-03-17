@@ -1,0 +1,14 @@
+Testsuite: simpledb.BTreeInternalPageTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.145 sec
+
+Testcase: addEntry took 0.085 sec
+Testcase: testDirty took 0.001 sec
+Testcase: deleteEntry took 0.001 sec
+Testcase: setParentId took 0.001 sec
+Testcase: getParentId took 0.001 sec
+Testcase: testReverseIterator took 0.001 sec
+Testcase: getSlot took 0 sec
+Testcase: getId took 0 sec
+Testcase: deleteNonexistentEntry took 0 sec
+Testcase: getNumEmptySlots took 0 sec
+Testcase: testIterator took 0.001 sec

@@ -1,0 +1,16 @@
+Testsuite: simpledb.systemtest.BTreeFileDeleteTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.07 sec
+------------- Standard Output ---------------
+removing non-existing page
+removing non-existing page
+removing non-existing page
+removing non-existing page
+removing non-existing page
+------------- ---------------- ---------------
+
+Testcase: testRedistributeLeafPages took 0.121 sec
+Testcase: testDeleteInternalPages took 3.991 sec
+Testcase: testReuseDeletedPages took 0.138 sec
+Testcase: testDeleteRootPage took 0.056 sec
+Testcase: testMergeLeafPages took 0.074 sec
+Testcase: testRedistributeInternalPages took 7.64 sec

@@ -1,0 +1,6 @@
+Testsuite: simpledb.TupleTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 sec
+
+Testcase: getTupleDesc took 0.006 sec
+Testcase: modifyRecordId took 0 sec
+Testcase: modifyFields took 0 sec

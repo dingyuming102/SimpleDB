@@ -1,0 +1,7 @@
+Testsuite: simpledb.systemtest.ScanTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.268 sec
+
+Testcase: testTupleDesc took 0.068 sec
+Testcase: testCache took 0.306 sec
+Testcase: testSmall took 0.831 sec
+Testcase: testRewind took 0.012 sec

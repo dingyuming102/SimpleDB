@@ -1,0 +1,9 @@
+Testsuite: simpledb.systemtest.AggregateTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.271 sec
+
+Testcase: testAverageNoGroup took 0.085 sec
+Testcase: testMax took 0.027 sec
+Testcase: testMin took 0.024 sec
+Testcase: testSum took 0.029 sec
+Testcase: testCount took 0.028 sec
+Testcase: testAverage took 0.029 sec

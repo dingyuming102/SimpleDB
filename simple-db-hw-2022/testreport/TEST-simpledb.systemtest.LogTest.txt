@@ -1,0 +1,22 @@
+Testsuite: simpledb.systemtest.LogTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.393 sec
+------------- Standard Output ---------------
+discarding non-existing page
+discarding non-existing page
+discarding non-existing page
+discarding non-existing page
+discarding non-existing page
+discarding non-existing page
+discarding non-existing page
+------------- ---------------- ---------------
+
+Testcase: TestCommitAbortCommitCrash took 0.099 sec
+Testcase: TestOpenCrash took 0.025 sec
+Testcase: TestFlushAll took 0.013 sec
+Testcase: TestCommitCrash took 0.021 sec
+Testcase: TestOpenCommitOpenCrash took 0.044 sec
+Testcase: TestAbort took 0.016 sec
+Testcase: TestAbortCommitInterleaved took 0.033 sec
+Testcase: TestOpenCommitCheckpointOpenCrash took 0.051 sec
+Testcase: TestAbortCrash took 0.024 sec
+Testcase: PatchTest took 0.011 sec

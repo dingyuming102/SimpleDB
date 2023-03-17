@@ -1,0 +1,29 @@
+Testsuite: simpledb.BTreeNextKeyLockingTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.236 sec
+------------- Standard Output ---------------
+Transaction 3 Aborted!
+Transaction 7 Aborted!
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+simpledb.transaction.TransactionAbortedException
+	at simpledb.transaction.LockManager.acquireLock(LockManager.java:61)
+	at simpledb.storage.BufferPool.getPage(BufferPool.java:99)
+	at simpledb.index.BTreeFile.getPage(BTreeFile.java:516)
+	at simpledb.index.BTreeFile.findLeafPage(BTreeFile.java:192)
+	at simpledb.index.BTreeFile.findLeafPage(BTreeFile.java:209)
+	at simpledb.index.BTreeFile.insertTuple(BTreeFile.java:550)
+	at simpledb.storage.BufferPool.insertTuple(BufferPool.java:214)
+	at simpledb.index.BTreeUtility$BTreeWriter.run(BTreeUtility.java:535)
+simpledb.transaction.TransactionAbortedException
+	at simpledb.transaction.LockManager.acquireLock(LockManager.java:61)
+	at simpledb.storage.BufferPool.getPage(BufferPool.java:99)
+	at simpledb.index.BTreeFile.getPage(BTreeFile.java:516)
+	at simpledb.index.BTreeFile.findLeafPage(BTreeFile.java:192)
+	at simpledb.index.BTreeFile.findLeafPage(BTreeFile.java:209)
+	at simpledb.index.BTreeFile.insertTuple(BTreeFile.java:550)
+	at simpledb.storage.BufferPool.insertTuple(BufferPool.java:214)
+	at simpledb.index.BTreeUtility$BTreeWriter.run(BTreeUtility.java:535)
+------------- ---------------- ---------------
+
+Testcase: nextKeyLockingTestLessThan took 1.618 sec
+Testcase: nextKeyLockingTestGreaterThan took 1.569 sec

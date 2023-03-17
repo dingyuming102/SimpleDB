@@ -1,0 +1,100 @@
+Testsuite: simpledb.JoinOptimizerTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.252 sec
+------------- Standard Output ---------------
+tableId1: -46718095
+tableId2: 1481021853
+Added scan of table t1
+Added scan of table t2
+Added join between t1.c8 and t2.c7
+Added select list field null.*
+tableId1: 1388202592
+tableId2: 1038789675
+Added scan of table a
+Added scan of table b
+Added scan of table c
+Added scan of table d
+Added scan of table e
+Added scan of table f
+Added scan of table g
+Added scan of table h
+Added scan of table i
+Added join between a.c1 and b.c1
+Added join between b.c0 and c.c0
+Added join between c.c1 and d.c1
+Added join between d.c0 and e.c0
+Added join between e.c1 and f.c1
+Added join between f.c0 and g.c0
+Added join between g.c1 and h.c1
+Added join between h.c0 and i.c0
+Aggregate field is a.c0, agg fun is : COUNT
+Added select list field a.c0
+	 with aggregator COUNT
+tableId1: 1504166308
+tableId2: 1775929171
+Added scan of table emp
+Added scan of table dept
+Added scan of table hobbies
+Added scan of table hobby
+Added join between emp.c1 and dept.c0
+Added join between hobbies.c0 and emp.c2
+Added join between hobbies.c1 and hobby.c0
+Added select list field null.*
+tableId1: 714257096
+tableId2: -954270694
+Added scan of table t1
+Added scan of table t2
+Added join between t1.c1 and t2.c2
+Added select list field null.*
+Added scan of table t1
+Added scan of table t2
+Added join between t1.c1 and t2.c2
+Added select list field null.*
+Added scan of table t1
+Added scan of table t2
+Added join between t1.c3 and t2.c4
+Added select list field null.*
+Added scan of table t1
+Added scan of table t2
+Added join between t1.c8 and t2.c7
+Added select list field null.*
+tableId1: -35494569
+tableId2: -1384529431
+Added scan of table bigTable
+Added scan of table a
+Added scan of table b
+Added scan of table c
+Added scan of table d
+Added scan of table e
+Added scan of table f
+Added scan of table g
+Added scan of table h
+Added scan of table i
+Added scan of table j
+Added scan of table k
+Added scan of table l
+Added scan of table m
+Added scan of table n
+Added join between bigTable.c0 and n.c0
+Added join between a.c1 and b.c1
+Added join between b.c0 and c.c0
+Added join between c.c1 and d.c1
+Added join between d.c0 and e.c0
+Added join between e.c1 and f.c1
+Added join between f.c0 and g.c0
+Added join between g.c1 and h.c1
+Added join between h.c0 and i.c0
+Added join between i.c1 and j.c1
+Added join between j.c0 and k.c0
+Added join between k.c1 and l.c1
+Added join between l.c0 and m.c0
+Added join between m.c1 and n.c1
+Aggregate field is a.c0, agg fun is : COUNT
+Added select list field a.c0
+	 with aggregator COUNT
+------------- ---------------- ---------------
+
+Testcase: estimateJoinCardinality took 0.202 sec
+Testcase: nonequalityOrderJoinsTest took 0.137 sec
+Testcase: orderJoinsTest took 0.715 sec
+Testcase: estimateJoinCostTest took 0.086 sec
+Testcase: bigOrderJoinsTest took 1.06 sec

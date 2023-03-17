@@ -1,0 +1,9 @@
+Testsuite: simpledb.systemtest.EvictionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.606 sec
+------------- Standard Output ---------------
+EvictionTest creating large table
+EvictionTest scanning large table
+EvictionTest scan complete, testing memory usage of scan
+------------- ---------------- ---------------
+
+Testcase: testHeapFileScanWithManyPages took 0.558 sec

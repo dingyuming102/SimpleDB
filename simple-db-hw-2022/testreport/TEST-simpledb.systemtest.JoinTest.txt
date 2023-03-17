@@ -1,0 +1,6 @@
+Testsuite: simpledb.systemtest.JoinTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.167 sec
+
+Testcase: testMultipleMatch took 0.078 sec
+Testcase: testNoMatch took 0.022 sec
+Testcase: testSingleMatch took 0.017 sec

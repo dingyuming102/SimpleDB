@@ -1,0 +1,6 @@
+Testsuite: simpledb.TransactionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.322 sec
+
+Testcase: commitTransaction took 0.128 sec
+Testcase: attemptTransactionTwice took 0.066 sec
+Testcase: abortTransaction took 0.078 sec
